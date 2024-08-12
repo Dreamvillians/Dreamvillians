@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Payment Checkout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .checkout-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .checkout-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .checkout-header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .amount-container, .btc-address-container, .qr-code-container {
+            margin-bottom: 20px;
+        }
+        .label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .qr-code-container img {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .btn-pay {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn-pay:hover {
+            background-color: #e68a00;
+        }
+        .warning-box {
+    background-color: #fff4e5;
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.warning-box p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.warning-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.warning-box ul li {
+    margin-bottom: 8px;
+}
+
+.note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="checkout-container">
+    <div class="checkout-header">
+        <h1>Bitcoin Payment Checkout</h1>
+    </div>
+
+    <div class="amount-container">
+        <label for="amount" class="label">Amount (BTC):</label>
+        <input type="text" id="amount" class="input-field" placeholder="0.001234 BTC">
+    </div>
+
+    <div class="btc-address-container">
+        <label for="btc-address" class="label">Bitcoin Address Below👇:</label>
+        <input type="text" id="btc-address" class="input-field" value="bc1qtzyhjugfd3tpj2zf4q6zcq5hr0myn8swz37ywv" readonly>
+    </div>
+
+    <div class="qr-code-container">
+        <label for="qr-code" class="label">Scan QR Code to Pay:</label>
+        <img src="/assets/images/bitcoin_qr.png" alt="Bitcoin QR Code">
+    </div>
+
+    <div class="btn-container">
+        <button class="btn-pay">Pay with Bitcoin</button>
+    </div> <br>
+    <div class="warning-box">
+      <p><strong>⚠️ To avoid loss of funds:</strong></p>
+      <ul>
+          <li>Do not send other currencies to this address.</li>
+          <li>Make sure to copy your Deriv account address correctly into your crypto wallet.</li>
+          <li>In your cryptocurrency wallet, make sure to select the <strong>Bitcoin (BTC) network</strong> when you transfer funds to Deriv.</li>
+      </ul>
+  </div>
+  <p class="note"><strong>Note:</strong> You'll receive an email when your deposit starts being processed.</p>
+  
+</div>
+
+</body>
+</html>
