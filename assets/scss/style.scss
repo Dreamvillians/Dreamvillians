@@ -10,6 +10,7 @@
 
 // Bootstrap main file
 @import "../vendors/bootstrap/scss/bootstrap.scss";
+@import "./components/loader";
 @import "./components/typography";
 @import "./components/badge";
 @import "./components/breadcrumbs";
@@ -23,4 +24,7 @@
 
 // Page styles
 @import "./components/landing-page";
-@import "./components/blog"
+@import "./components/blog";
+.p2 {
+  padding-top: 100px;
+}

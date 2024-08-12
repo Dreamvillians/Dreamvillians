@@ -15,11 +15,10 @@ html{
         }
     }
     &.landing-header {
-        background-image: url('../images/bg_1@2x.png'),url("../images/Bg_2@2x.png");
+        background-image: url("../images/laptop.jpg");
         background-repeat: no-repeat;
-        background-repeat: no-repeat;
-        background-size: 167px, 65%;
-        background-position: left bottom, right top;
+        background-position: center;
+        background-size: cover;
     
     }
 }

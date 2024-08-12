@@ -8,13 +8,13 @@ $colors: (
 );
 
 $theme-colors: (
-    "primary":    #960202,
-    "secondary":  #f5f6f8,
-    "tertiary":   #283cf5,
+    "primary":    rgb(94, 13, 21),
+    "secondary":  rgb(245, 246, 248),
+    "tertiary":   rgb(60, 77, 230),
     "info":       #2e41ec,
-    "success":    #34ad80,
+    "success":    rgb(52, 173, 128),
     "warning":    #f7b731,
-    "danger":     #fe3f3e,
+    "danger":     rgba(238, 18, 18, 0.922),
     "dark":       #3a3a3a
 );
 
