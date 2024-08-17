@@ -8,15 +8,36 @@
     <title>DreamVillian App Landing Page</title>
     <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="/assets/vendors/aos/aos.css" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <script src="assets/vendors/jquery/jquery.min.js"></script>
-    <script src="assets/js/loader.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .text-gradient {
+      background: linear-gradient(90deg,  rgb(255, 3, 28), #020202, rgb(0, 26, 255),  rgb(0, 255, 162), #3a3a3a,rgba(98, 14, 14, 0.922));
+      font-size: 2.3rem;
+      background-size: 400%;
+      font-family: sans-serif;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      animation: animate 15s linear infinite;
+  }
+  @keyframes animate {
+      0% {
+          background-position: 0%;
+      }
+  
+      100% {
+          background-position: 400%;
+      }
+  }
+  </style>
+  
 </head>
 <body>
-    <div class="loader"></div>
+    <div class="loader">.....</div>
     <header class="foi-header landing-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
@@ -53,44 +74,33 @@
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item mr-2 mb-3 mb-lg-0">
-                            <a class="btn btn-secondary" href="register.html">Sign up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-secondary" href="login.html">Login</a>
-                        </li>
-                    </ul>
                 </div>
             </nav>
-            <div class="header-content">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 style="color: #F0F8FF;">Top Prop Firm Signals Trading Club</h1>
-                        <p class="text-white">
-                            Join the Dreamvillians Traders Club—a premier community dedicated to helping traders excel in prop firm challenges. Leverage the power of collaborative trading and expert guidance to achieve your trading goals and secure funded accounts with top prop firms.
-                        </p>
+            <section  class="py-5 mb-5">
+                <div class="container p2">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/homepage_header.gif" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-            
+            </section>
         </div>
     </header>
-
     <section class="py-5 mb-5">
         <div class="container p2 ">
             <div class="row">
-                <div class="col-md-6 mb-5 mb-md-0">
+                <div class="col-md-6 mb-5 mb-md-0 animate__animated animate__fadeInBottomLeft" >
                     <img src="assets/images/signals_2.png" alt="special offers" class="img-fluid" width="492px">
                 </div>
-                <div class="col-md-6">
-                    <h3 class="section-title">Unlock Exclusive Trading Services🛠</h3>
-                    <p class="mb-5">Take your trading to the next level with tailored plans, expert insights, and unparalleled support.</p>
+                <div class="col-md-6 animate__animated animate__fadeInBottomLeft">
+                    <h3 class="section-title animate__animated animate__fadeInUpBig">Unlock Exclusive Trading Services🛠</h3>
+                    <p class="mb-5 section-title animate__animated animate__fadeInUpBig">Take your trading to the next level with tailored plans, expert insights, and unparalleled support.</p>
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
                                 <span class="landing-feature-icon"></span>
-                                <div class="media-body">
+                                <div class="media-body animate__animated animate__fadeInBottomLeft">
                                     <h5>Monthly Signals 🕐</h5>
                                     <p>Stay ahead in the market with our monthly subscription. Receive consistent, high-quality trading signals, detailed analysis, and actionable insights to make informed trading decisions.</p>
                                 </div>
@@ -99,7 +109,7 @@
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
                                 <span class="landing-feature-icon"></span>
-                                <div class="media-body">
+                                <div class="media-body animate__animated animate__fadeInBottomRight">
                                     <h5>Quartely Signals🕒</h5>
                                     <p>Gain a strategic advantage with three months of premium signals. Benefit from expert market analysis, regular performance reviews, and exclusive access to our trading community.</p>
                                 </div>
@@ -108,7 +118,7 @@
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
                                 <span class="landing-feature-icon"></span>
-                                <div class="media-body">
+                                <div class="media-body animate__animated animate__fadeInBottomLeft">
                                     <h5>6 Months Signals🕧</h5>
                                     <p>Commit to your trading success with six months of dedicated support. Enjoy a steady flow of signals, mentorship from seasoned traders, and access to advanced tools and resources designed to enhance your trading skills and profitability.</p>
                                 </div>
@@ -117,7 +127,7 @@
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
                                 <span class="landing-feature-icon"></span>
-                                <div class="media-body">
+                                <div class="media-body animate__animated animate__fadeInBottomRight">
                                     <h5>Yearly Signals🕛</h5>
                                     <p>Experience a full year of comprehensive trading support. Receive top-tier signals, in-depth market analysis, and personalized mentorship. This plan is designed for traders who are serious about achieving long-term success, with ongoing guidance and exclusive access to our elite trading network.</p>
                                 </div>
@@ -128,11 +138,11 @@
             </div>
         </div>
     </section>
-    <div class="container animate__animated animate__fadeInBottomLeft">
+    <div class="container ">
             
-        <h2 class="section-title">Flexible Payment Options available</h2> <br>
+        <h2 class="section-title animate__animated animate__fadeInUpBig">Flexible <span class="font-os mb-0 text-gradient" >Payment Options </span>available </h2> <br>
         <div class="row">
-            <div class="col-lg-4 mb-4 mb-lg-0 " >
+            <div class="col-lg-4 mb-4 mb-lg-0 animate__animated animate__fadeInBottomLeft " >
                 <h5>Cryptocurrency Payments 💸</h5>    
                 <p class="text-dark">Embrace the future of finance with Bitcoin payments. Secure, fast, and borderless.</p>
                 <p class="mb-5"><a href="features.html" class="text-primary mb-5">Find out More</a></p>
@@ -144,7 +154,7 @@
                 <p class="text-dark">Send money across borders effortlessly with Mukuru, a trusted and convenient payment option.</p>
                 <p class="mb-5"><a href="features.html" class="text-primary mb-5">Find out More</a></p>
             </div>
-            <div class="col-lg-4 mb-3 mb-lg-0">
+            <div class="col-lg-4 mb-3 mb-lg-0 animate__animated animate__fadeInBottomRight">
                 <h5>Visa Card 💳</h5>
                 <p class="text-dark">Use your Visa card for quick and secure transactions, trusted by millions worldwide.</p>
                 <p class="mb-5"><a href="features.html" class="text-primary mb-5">Find out More</a></p>
@@ -157,14 +167,14 @@
                
                 
             </div>
-            <div class="col-lg-4"  class="col-lg-4 mb-4 mb-lg-0 animate__animated animate__animate__fadeInTopRight">
-                <h6 class="text-gray font-os font-weight-semibold">Trusted Payment Methods by the world's best</h6>
-                <div id="landingClientCarousel" class="carousel slide landing-client-carousel" data-ride="carousel">
+            <div class="col-lg-4"  class="col-lg-4 mb-4 mb-lg-0 ">
+                <h6 class="text-gray font-os font-weight-semibold animate__animated animate__fadeInUpBig">Trusted Payment Methods by the world's best</h6>
+                <div id="landingClientCarousel" class="carousel slide landing-client-carousel animate__animated animate__fadeInUpBig" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="d-flex flex-wrap justify-content-center">
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/bitcoin_logo.svg" alt="Slack" class="img-fluid">
+                                    <img src="assets/images/clients/bitcoin_logo.svg" alt="Bitcoin" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
                                     <img src="assets/images/clients/Mukuru_logo.png" alt="Mukuru" class="img-fluid">
@@ -173,57 +183,57 @@
                                     <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/p2p.svg" alt="Amazon" class="img-fluid">
+                                    <img src="assets/images/clients/p2p.svg" alt="Deriv" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/Card-Payments-Icon.webp" alt="Google" class="img-fluid">
+                                    <img src="assets/images/clients/Card-Payments-Icon.webp" alt="Visa" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/eft.webp" alt="Samsung" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="d-flex flex-wrap justify-content-center">
-                                <div class="clients-logo">
-                                    <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
-                                </div>
-                                <div class="clients-logo">
-                                    <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
-                                </div>
-                                <div class="clients-logo">
-                                    <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
-                                </div>
-                                <div class="clients-logo">
-                                    <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
-                                </div>
-                                <div class="clients-logo">
-                                    <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
-                                </div>
-                                <div class="clients-logo">
-                                    <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
+                                    <img src="assets/images/clients/eft.webp" alt="Eft" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex flex-wrap justify-content-center">
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
+                                    <img src="assets/images/clients/Mukuru_logo.png" alt="Mukuru" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
+                                    <img src="assets/images/clients/p2p.svg" alt="Deriv" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
                                     <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
+                                    <img src="assets/images/clients/eft.webp" alt="Eft" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
+                                    <img src="assets/images/clients/Card-Payments-Icon.webp" alt="Visa" class="img-fluid">
                                 </div>
                                 <div class="clients-logo">
-                                    <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
+                                    <img src="assets/images/clients/bitcoin_logo.svg" alt="Bitcoin" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex flex-wrap justify-content-center">
+                                <div class="clients-logo">
+                                    <img src="assets/images/clients/p2p.svg" alt="Deriv" class="img-fluid">
+                                </div>
+                                <div class="clients-logo">
+                                    <img src="assets/images/clients/eft.webp" alt="Eft" class="img-fluid">
+                                </div>
+                                <div class="clients-logo">
+                                    <img src="assets/images/clients/Card-Payments-Icon.webp" alt="Paypal" class="img-fluid">
+                                </div>
+                                <div class="clients-logo">
+                                    <img src="assets/images/clients/bitcoin_logo.svg" alt="Amazon" class="img-fluid">
+                                </div>
+                                <div class="clients-logo">
+                                    <img src="assets/images/clients/paypal.svg" alt="Google" class="img-fluid">
+                                </div>
+                                <div class="clients-logo">
+                                    <img src="assets/images/clients/Mukuru_logo.png" alt="Samsung" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -238,13 +248,13 @@
         </div>
     </div>
     <section class="py-5 mb-5">
-        <div class="container">
-            <h2>Join the Dreamvillians Traders Club Community🏦</h2>
+        <div class="container animate__animated animate__fadeInLeft">
+            <h2>Join the <span class="font-os mb-0 text-gradient" >Dreamvillians Traders Club </span>Community🏦</h2>
             <p class="text-muted mb-5">We're thrilled to have you join our community of dedicated traders👨🏽‍💻.I wished I had found you before. </p>
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                    <div class="card pricing-card border-warning">
-                        <div class="card-body">
+                    <div class="card pricing-card border-warning" >
+                        <div class="card-body"  >
                             <h3 class="mb-1">Monthly Signals</h3>
                             <h3 class="mb-1 text-warning">$29.00</h3>
                             <p class="payment-period">Per month</p>
@@ -256,14 +266,16 @@
                                 <h8>Premium Resources 🔱</h8>
                                 <p>Exclusive access to the VIP group. Enjoy exclusive trading resources to enhance your skills, including a free Trading Guide Book 📕 and a free Notion Template for Journaling 📚.</p>
                             
-                                <h8>Support and Assistance 24/7 📞</h8>
-                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
-                            
+                                
                                 <h8>Weekly Report 🔖</h8>
                                 <p>Access weekly reports on your trading performance, including win rate, total trades, and profit factor.</p>
                             
                                 <h8>Giveaways 🎁</h8>
                                 <p>Dive into our thrilling giveaways! Score big with a premium trading course worth $500 by joining our weekly challenges. Plus, unlock an ultimate package featuring a premium Notion template for journaling, our exclusive Forex eBook packed with strategies, and a month of VIP signals—all for free!</p>
+
+                                <h8>Support and Assistance 24/7 📞</h8>
+                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
+                            
                             <a href="features.html"  class="btn btn-warning btn-rounded" >Get Started</a>
                         </div>
                     </div>
@@ -282,14 +294,15 @@
                                 <h8>Premium Resources 🔱</h8>
                                 <p>Exclusive access to the VIP group. Enjoy exclusive trading resources to enhance your skills, including a free Trading Guide Book 📕 and a free Notion Template for Journaling 📚.</p>
                             
-                                <h8>Support and Assistance 24/7 📞</h8>
-                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
-                            
                                 <h8>Weekly Report 🔖</h8>
                                 <p>Access weekly reports on your trading performance, including win rate, total trades, and profit factor.</p>
                             
                                 <h8>Giveaways 🎁</h8>
                                 <p>Dive into our thrilling giveaways! Score big with a premium trading course worth $500 by joining our weekly challenges. Plus, unlock an ultimate package featuring a premium Notion template for journaling, our exclusive Forex eBook packed with strategies, and a month of VIP signals—all for free!</p>
+
+                                <h8>Support and Assistance 24/7 📞</h8>
+                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
+
                             <a href="features.html"  class="btn btn-info btn-rounded">Get Started</a>
                         </div>
                     </div>
@@ -308,14 +321,16 @@
                                 <h8>Premium Resources 🔱</h8>
                                 <p>Exclusive access to the VIP group. Enjoy exclusive trading resources to enhance your skills, including a free Trading Guide Book 📕 and a free Notion Template for Journaling 📚.</p>
                             
-                                <h8>Support and Assistance 24/7 📞</h8>
-                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
                             
                                 <h8>Weekly Report 🔖</h8>
                                 <p>Access weekly reports on your trading performance, including win rate, total trades, and profit factor.</p>
                             
                                 <h8>Giveaways 🎁</h8>
                                 <p>Dive into our thrilling giveaways! Score big with a premium trading course worth $500 by joining our weekly challenges. Plus, unlock an ultimate package featuring a premium Notion template for journaling, our exclusive Forex eBook packed with strategies, and a month of VIP signals—all for free!</p>
+
+                                <h8>Support and Assistance 24/7 📞</h8>
+                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
+
                             <a href="features.html" class="btn btn-success btn-rounded">Get Started</a>
                         </div>
                     </div>
@@ -334,35 +349,94 @@
                                 <h8>Premium Resources 🔱</h8>
                                 <p>Exclusive access to the VIP group. Enjoy exclusive trading resources to enhance your skills, including a free Trading Guide Book 📕 and a free Notion Template for Journaling 📚.</p>
                             
+                                <h8>Weekly Report 🔖</h8>
+                                <p>Access weekly reports on your trading performance, including win rate, total trades, and profit factor.</p>
+                            
+                                <h8>Giveaways 🎁</h8>
+                                <p>Dive into our thrilling giveaways! Score big with a premium trading course worth $500 by joining our weekly challenges. Plus, unlock an ultimate package featuring a premium Notion template for journaling, our exclusive Forex eBook packed with strategies, and a month of VIP signals—all for free!</p>
+
                                 <h8>Support and Assistance 24/7 📞</h8>
                                 <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
+
+                            <a href="features.html" class="btn btn-primary btn-rounded">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card border-info">
+                        <div class="card-body">
+                            <h3>Notion Template</h3>
+                            <h3 class="text-success">$49.00</h3>
+                            <p class="payment-period">unlimited</p>
+                            <h5 class="mb-1 text-primary"> <s> $70.00 </s></h5>
+                            <p class="mb-4">
+                                <h6>Comprehensive Trade Journal📊</h6>
+                                <p>Effortlessly log every trade detail.Improve decision-making with precise historical data.
+Monitor your progress and pinpoint areas for growth.</p>
+                            
+                                <h8>Monthly and Yearly Reporting📊</h8>
+                                <p>Exclusive access to the VIP group. Enjoy exclusive trading resources to enhance your skills, including a free Trading Guide Book 📕 and a free Notion Template for Journaling 📚.</p>
+                            
+                                <h8>Weekly Report 🔖</h8>
+                                <p>Access weekly reports on your trading performance, including win rate, total trades, and profit factor.</p>
+                            
+                                <h8>Trade Routine and Checklist✅</h8>
+                                <p>Follow a systematic approach for each trade.
+                                    Avoid costly mistakes with our pre-trade checklist.
+                                    Build discipline and consistency.</p>
+                                    <h8>Tools & Resources 🛠️ </h8>
+                                    <p>Access risk calculators, position size tools, and more.</p>
+
+                                    <h8>Support and Assistance 24/7 📞</h8>
+                                    <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
+                            <a href="features.html" class="btn btn-info btn-rounded">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card border-success">
+                        <div class="card-body">
+                            <h3>Education</h3>
+                            <h3 class="text-success">$99.00</h3>
+                            <p class="payment-period">Per 6 months</p>
+                            <h5 class="mb-1 text-primary"> <s> $120.35 </s></h5>
+                            <p class="mb-4">
+                                <h6>Real-Time Best Trading Signals 📈</h6>
+                                <p>Receive timely trading signals with entry points, take profit (TP), stop loss (SL), and chart analysis to make informed decisions.</p>
+                            
+                                <h8>Premium Resources 🔱</h8>
+                                <p>Exclusive access to the VIP group. Enjoy exclusive trading resources to enhance your skills, including a free Trading Guide Book 📕 and a free Notion Template for Journaling 📚.</p>
                             
                                 <h8>Weekly Report 🔖</h8>
                                 <p>Access weekly reports on your trading performance, including win rate, total trades, and profit factor.</p>
                             
                                 <h8>Giveaways 🎁</h8>
                                 <p>Dive into our thrilling giveaways! Score big with a premium trading course worth $500 by joining our weekly challenges. Plus, unlock an ultimate package featuring a premium Notion template for journaling, our exclusive Forex eBook packed with strategies, and a month of VIP signals—all for free!</p>
-                            <a href="features.html" class="btn btn-primary btn-rounded">Get Started</a>
+                                <h8>Support and Assistance 24/7 📞</h8>
+                                <p>Our Telegram bot provides instant support and answers queries. For additional help, contact us via WhatsApp at (+27) 68 578 2474 or email <a href="mailto:dreamvillians.traders.club@gmail.com">dreamvillians.traders.club@gmail.com</a>.</p>
+                            <a href="features.html" class="btn btn-success btn-rounded">Get Started</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+      
+                
     </section>
     <section class="py-5 mb-5">
-        <div class="container animate__animated animate__slideInUp">
-            <h2>Feedback from Our Traders 👨🏽‍💻:</h2>
-            <p class="text-muted mb-5">Thank you for your professionalism and for checking out our page. We’re excited to have you join our dedicated trading community. I only wish I had discovered you sooner!.</p>
+        <div class="container">
+            <h2 class="animate__animated animate__fadeInLeft"><span class="font-os mb-0 text-gradient" style="color: #981919;">Feedback </span>from Our Traders👨🏽‍💻:</h2>
+            <p class="text-muted mb-5 animate__animated animate__fadeInLeft">Thank you for your professionalism and for checking out our page. We’re excited to have you join our dedicated trading community. I only wish I had discovered you sooner!.</p>
             <hr>
             <div class="row">
-                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__slideInUp">
+                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInBottomLeft">
                     <div class="foi-rating">
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
                     </div>
-                    <h5 class="foi-review-heading">Great support available</h5>
+                    <h5 class="foi-review-heading ">Great support available</h5>
                     <div class="media foi-review-user">
                         <img src="assets/images/avatar/avatar_11.jpg" alt="user" class="avatar">
                         <div class="media-body">
@@ -372,10 +446,9 @@
                     </div>
                     <br>
                     <p class="foi-review-content">"Thank you, Dreamvillians! Your signals are incredibly accurate, and the Notion templates make journaling easy and effective. My trading journey has never been better."</p>
-                    
                     <hr>
                 </div>
-                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__slideInUp">
+                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInUpBig">
                     <div class="foi-rating">
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
@@ -398,7 +471,7 @@
                     <hr>
                 </div>
                 
-                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__slideInUp" >
+                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInRight" >
                     <div class="foi-rating">
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
@@ -419,7 +492,7 @@
                     <hr>
                 </div>
                 
-                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__slideInUp">
+                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInBottomLeft">
                     <div class="foi-rating">
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
@@ -439,7 +512,7 @@
                     
                     
                 </div>
-                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__slideInUp">
+                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInRight">
                     <div class="foi-rating">
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
@@ -459,7 +532,7 @@
                     
 
                 </div>
-                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__slideInUp">
+                <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInBottomRight">
                     <div class="foi-rating">
                         <span class="fas fa-star checked"></span>
                         <span class="fas fa-star checked"></span>
@@ -483,7 +556,7 @@
     </section>
     <section class="py-5 mb-5">
         <div class="container">
-            <h2>Dreamvillians Traders Club FAQ⁉️</h2>
+            <h2><span class="font-os mb-0 text-gradient" >Dreamvillians Traders Club FAQ⁉️</span></h2>
             <p class="section-subtitle">Frequently Asked Questions</p>
             <div class="row">
                 
@@ -609,50 +682,60 @@
             </div>
         </div>
     </section>
-    <footer id="home" class="foi-footer text-white">
-            <div class="row footer-widget-area">
-                <div class="col-md-3">
-                    <div class="py-3">
-                        <img src="assets/images/logo-white.svg" alt="FOI">
-                    </div>
-                    <p class="font-os font-weight-semibold mb3">Get our mobile app</p>
-                    <div>
-                        <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg" alt="App store"></button>
-                        <button class="btn btn-app-download"><img src="assets/images/android.svg" alt="play store"></button>
-                    </div>
+    <footer>
+        <div class="container">
+            <div class="row1">
+                <div class="footer-col">
+                    <h4>Privacy Policy</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy-policy.html">DISCLAIMER & POLICY</a></li>
+                        <li><a href="">Technology</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Our Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">VIP SIgnals <span class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Notion Templates(Journaling)</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Testimonials</a>
-                            </li>
-                        </ul>
-                    </nav>
+
+                <!-- 2nd Column -->
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Testimonials Profile</a></li>
+                        <li><a href="contact.html">Contact US</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <p>
-                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
-                    </p>
-                    <p>All rights reserved.</p>
-                    <nav class="social-menu">
-                        <a href="#!"><img src="assets/images/facebook.svg" alt="facebook"></a>
-                        <a href="#!"><img src="assets/images/instagram.svg" alt="instagram"></a>
-                        <a href="#!"><img src="assets/images/twitter.svg" alt="twitter"></a>
-                        <a href="#!"><img src="assets/images/youtube.svg" alt="youtube"></a>
-                    </nav>
+
+                <!-- 3rd Column -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="features.html">VIP Signals</a></li>
+                        <li><a href="blog-single.html">Journiling(Notion Templates)</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3th Column -->
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <form action="">
+                        <input type="text" placeholder="Your Name" class="inputName">
+                        <input type="email" placeholder="Enter Company Email" class="inputEmail">
+                        <input type="submit" value="Submit" class="inputSubmit">
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row1">
+                <div class="col1">
+                    <p>&#169; 2022 DreamvilliansTradersClub. All Rights Reserved.</p>
+                </div>
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -660,6 +743,14 @@
     
     <script src="assets/vendors/popper.js/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
 </body>
 
 </html>

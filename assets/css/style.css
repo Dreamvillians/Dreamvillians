@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -22,7 +23,7 @@
   --white: #ffffff;
   --gray: #989898;
   --gray-dark: #343a40;
-  --primary: rgba(165, 19, 33, 0.667);
+  --primary: rgb(85, 2, 10);
   --secondary: #f5f6f8;
   --success: #34ad80;
   --info: #2e41ec;
@@ -8191,7 +8192,14 @@ button:focus {
   font-weight: 700; }
 
 .btn-rounded {
-  border-radius: 24px; }
+  border-radius:24px; }
+
+  .btn1 {
+    line-height: 1;
+    font-weight: 700; }
+  
+  .btn-rounded1 {
+    border-radius: 24px; }
 
 .btn-app-download {
   width: 35px;
@@ -8432,7 +8440,6 @@ html {
       font-size: 45px;
       line-height: 1.22; }
   .foi-header.landing-header {
-    background-image: url("../images/laptop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:  cover; }
@@ -8836,5 +8843,139 @@ html {
 
 .p2 {
   padding-top: 150px; }
+.edica-landing-section {
+    padding-top: 75px;
+    padding-bottom: 60px; }
+    .edica-landing-section.edica-landing-clients .partners-wrapper img {
+      margin: 28px; }
+      .edica-landing-section.edica-landing-clients .partners-wrapper img:first-child {
+        margin-left: 0; }
+      .edica-landing-section.edica-landing-clients .partners-wrapper img:last-child {
+        margin-right: 0; }
+        .edica-landing-section .edica-landing-section-subtitle-alt {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 1;
+          padding-left: 111px;
+          position: relative;
+          color: #bbc5d2;
+          margin-bottom: 33px; }
+          .edica-landing-section .edica-landing-section-subtitle-alt::before {
+            content: "";
+            display: inline-block;
+            width: 90px;
+            height: 1px;
+            background-color: #bbc5d2;
+            position: absolute;
+            left: 0;
+            top: 50%; }
+            .edica-landing-section.edica-landing-clients .partners-wrapper img {
+              margin: 28px; }
+              .edica-landing-section.edica-landing-clients .partners-wrapper img:first-child {
+                margin-left: 0; }
+              .edica-landing-section.edica-landing-clients .partners-wrapper img:last-child {
+                margin-right: 0; }
+                .partners-wrapper > img {
+                  max-width: 120px;
+                  -o-object-fit: cover;
+                     object-fit: cover;
+                  margin-right: 56px !important;
+                  max-height: 60px;
+                  margin-left: 0 !important; }
 
+                footer .container{
+                    background-color: black;
+                    
+                }
+                
+                .row1{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 40px 100px;
+                }
+                .footer-col ul{
+                    list-style: none;
+                }
+                
+                .footer-col h4{
+                    color: white;
+                    margin-bottom: 25px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    position: relative;
+                    font-family: 'Helvetica Neue', Arial;
+                }
+                
+                .footer-col h4::before{
+                    content: '';
+                    width: 70px;
+                    height: 2px;
+                    position: absolute;
+                    background-color: #2e41ec;
+                    bottom: -10px;
+                }
+                
+                .footer-col ul li{
+                    padding: 10px;
+                    margin-left: -50px;
+                }
+                .footer-col ul li a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 16px;
+                    opacity: 0.7;
+                    transition: 0.5s;
+                    padding-right: -10px;
+                }
+                .footer-col ul li a:hover{
+                    opacity: 1;
+                }
+                .footer-col input{
+                    border: none;
+                    width: 250px;
+                    height: 45px;
+                    display: block;
+                    padding-left: 20px;
+                    margin: 14px 0;
+                }
+                
+                .footer-col .inputSubmit{
+                    padding: 0px 20px;
+                    background-color: #f7b731;
+                    border: none;
+                    color: white;
+                }
+                .col1 p{
+                    color: white;
+                }
+                .row1 hr{
+                    opacity: 0.7;
+                }
+                
+                .row1 .socialIcons i{
+                    display: inline-block;
+                    color: white;
+                    font-size: 20px;
+                    margin: 0 15px;
+                    transition: 0.5s;
+                }
+                
+                .row1 .socialIcons i:hover{
+                    color:#2e41ec;
+                }
+                
+                @media (max-width: 600px){
+                    footer .row1{
+                        flex-direction: column;
+                        padding: 20px 30px;
+                    }
+                
+                    footer .footer-col ul{
+                        margin-left: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .footer-col input{
+                        width: 100%;
+                    }
+                }
 /*# sourceMappingURL=style.css.map */

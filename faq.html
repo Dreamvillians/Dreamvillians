@@ -12,6 +12,28 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .text-gradient {
+      background: linear-gradient(90deg,  rgb(255, 3, 28), #020202, rgb(0, 26, 255),  rgb(0, 255, 162), #3a3a3a,rgba(98, 14, 14, 0.922));
+      font-size: 2.3rem;
+      background-size: 400%;
+      font-family: sans-serif;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      animation: animate 15s linear infinite;
+  }
+  @keyframes animate {
+      0% {
+          background-position: 0%;
+      }
+  
+      100% {
+          background-position: 400%;
+      }
+  }
+  </style>
+</head>
 </head>
 
 <body>
@@ -38,27 +60,14 @@
                         <li class="nav-item active dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Services</a>
                             <div class="dropdown-menu" aria-labelledby="pagesMenu">
-                                <a class="dropdown-item" href="login.html">Login</a>
-                                <a class="dropdown-item" href="register.html">Register</a>
                                 <a class="dropdown-item" href="blog-single.html">Journiling(Notion Templates)</a>
                                 <a class="dropdown-item" href="blog.html">Testimonials Profile</a>
                                 <a class="dropdown-item" href="faq.html">FAQ <span class="sr-only">(current)</span></a>
                                 <a class="dropdown-item" href="privacy-policy.html">DISCLAIMER & POLICY</a>
-                                <a class="dropdown-item" href="careers.html">Careers</a>
-                                
-                                
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item mr-2 mb-3 mb-lg-0">
-                            <a class="btn btn-secondary" href="register.html">Sign up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-secondary" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +80,7 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <section class="page-header">
-                        <h2>Dreamvillians Traders Club FAQ⁉️</h2>
+                        <h1 class="blog-post-title"><span class="font-os mb-0 text-gradient" style="color: #981919;">Dreamvillians Traders Club FAQ⁉️</span></h1>
                         <p class="section-subtitle">Frequently Asked Questions</p>
                         <h5>Whether you have questions or you would just like to say hello, Contact us.</h5>
                     </section>
@@ -190,80 +199,60 @@
         </div>
     </main>
 
-    <footer class="foi-footer text-white">
+    <footer>
         <div class="container">
-            <div class="row footer-content">
-                <div class="col-xl-6 col-lg-7 col-md-8">
-                    <h2 class="mb-0">Do you want to know more or just have a question? write to us.</h2>
+            <div class="row1">
+                <div class="footer-col">
+                    <h4>Privacy Policy</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy-policy.html">DISCLAIMER & POLICY</a></li>
+                        <li><a href="">Technology</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
-                    <a href="contact.html" class="btn btn-danger btn-lg">Contact form</a>
+
+                <!-- 2nd Column -->
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Testimonials Profile</a></li>
+                        <li><a href="contact.html">Contact US</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3rd Column -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="features.html">VIP Signals</a></li>
+                        <li><a href="blog-single.html">Journiling(Notion Templates)</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3th Column -->
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <form action="">
+                        <input type="text" placeholder="Your Name" class="inputName">
+                        <input type="email" placeholder="Enter Company Email" class="inputEmail">
+                        <input type="submit" value="Submit" class="inputSubmit">
+                    </form>
                 </div>
             </div>
-            <div class="row footer-widget-area">
-                <div class="col-md-3">
-                    <div class="py-3">
-                        <img src="assets/images/logo-white.svg" alt="FOI">
-                    </div>
-                    <p class="font-os font-weight-semibold mb3">Get our mobile app</p>
-                    <div>
-                        <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg" alt="App store"></button>
-                        <button class="btn btn-app-download"><img src="assets/images/android.svg" alt="play store"></button>
-                    </div>
+            <hr>
+            <div class="row1">
+                <div class="col1">
+                    <p>&#169; 2022 DreamvilliansTradersClub. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Account</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">My tasks</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Edit profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Activity</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Careers <span class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Shop with us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <p>
-                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
-                    </p>
-                    <p>All rights reserved.</p>
-                    <nav class="social-menu">
-                        <a href="#!"><img src="assets/images/facebook.svg" alt="facebook"></a>
-                        <a href="#!"><img src="assets/images/instagram.svg" alt="instagram"></a>
-                        <a href="#!"><img src="assets/images/twitter.svg" alt="twitter"></a>
-                        <a href="#!"><img src="assets/images/youtube.svg" alt="youtube"></a>
-                    </nav>
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>

@@ -8,10 +8,33 @@
     <title>Dreamvillians Landing Page</title>
     <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="/assets/vendors/aos/aos.css" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />    
+  />   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+  <style>
+    .text-gradient {
+      background: linear-gradient(90deg,  rgb(255, 3, 28), #020202, rgb(0, 26, 255),  rgb(0, 255, 162), #3a3a3a,rgba(98, 14, 14, 0.922));
+      font-size: 2.3rem;
+      background-size: 400%;
+      font-family: sans-serif;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      animation: animate 15s linear infinite;
+  }
+  @keyframes animate {
+      0% {
+          background-position: 0%;
+      }
+  
+      100% {
+          background-position: 400%;
+      }
+  }
+  </style>
 </head>
 
 <body>
@@ -41,25 +64,14 @@
                             <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Our Service</a>
                             <div class="dropdown-menu" aria-labelledby="pagesMenu">
-                                <a class="dropdown-item" href="login.html">Login</a>
-                                <a class="dropdown-item" href="register.html">Register</a>
                                 <a class="dropdown-item" href="blog-single.html">Journiling(Notion Templates) <span class="sr-only">(current)</span></a>
                                 <a class="dropdown-item" href="blog.html">Testimonials Page</a>
                                 <a class="dropdown-item" href="faq.html">FAQ</a>
                                 <a class="dropdown-item" href="privacy-policy.html">DISCLAIMER & POLICY</a>
-                                <a class="dropdown-item" href="careers.html">Careers</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item mr-2 mb-3 mb-lg-0">
-                            <a class="btn btn-secondary" href="register.html">Sign up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-secondary" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -68,29 +80,34 @@
     </header>
 
     <main class="page-blog-post">
+        
         <div class="container">
+            
             <div class="row">
+                
                 <div class="col-lg-10 offset-lg-1">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb foi-breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Notion Templates</li>
+                        </ol>
+                    </nav>
                     <section class="page-header">
-                        <h1> Your Ultimate Trading Journiling Center</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb foi-breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Notion Templates</li>
-                            </ol>
-                        </nav>
+                        <h1>Your Ultimate <span class="font-os mb-0 text-gradient" style="color: #981919;">Trading Journaling</span> Center</h1>
+                        <p style="font-style: italic;">#1 notion trading journal and analytics tool trusted by traders worldwide. Easily track, analyze, and improve your stock, futures, and forex trades.</p>
+                        
                     </section>
                     <section class="blog-post-header">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
-                                <h3 class="blog-post-title" style="text-align: center;">Centralize Your Trading Analytics,Strategies & Emotions for Peak Perfomance and Profitability</h3>
+                                <h3 class="blog-post-title" style="text-align: center;">Centralize Your Trading<span class="font-os mb-0 text-gradient" style="color: #981919;"> Analytics,Strategies & Emotions </span>for Peak Perfomance and Profitability</h3>
                             </div>
                         </div>
                     </section>
                     <section class="blog-post-content">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-8 mb-5 text-center">
-                                <img src="assets/images/heade_ notion.gif" alt="GIF description" class="img-fluid rounded">
+                                <img src="assets/images/notion_gif.gif" alt="mp4 description" class="img-fluid rounded">
                             </div>
                         </div>
                         <div class="row">
@@ -99,9 +116,10 @@
                                 <blockquote>
                                     <p2 style="font-style: italic;">The Dreamvillian Trading Notion template empowers you to uncover your strengths and weaknesses, guiding you toward profitability through the power of journaling and in-depth analytics. <b>We Reflect, We Learn, We Grow.</b>  </p2>
                                 </blockquote>
-                                <h2 style="text-align: center;">Journaling to Take
-                                    Control of Your Trading</h2>
+                                <h2 style="text-align: center;">Journaling to <span class="font-os mb-0 text-gradient" style="color: #981919;">Take Control </span>of Your Trading</h2>
                                 <p class="mb-5">It's time to break the cycle of losses and turn your weaknesses into strengths. Watch below to see how Dreamvillians Traders Club empowers you to master your trading game.</p>
+                                <h4 style="text-align: center;">What is a Trading Journal?</h4>
+                                <p class="mb-5">A trading journal is a valuable tool to help you become a better trader by tracking and analyzing your trades. The Dreamville Trading Notion Template is one of the best tools available to keep your trading journal organized and effective.</p>
                                 <h2 style="text-align: center;">3 Easy Steps to Improve Your Trading Performance</h2>
                                 <div class="row">
                                     <div class="col-lg-4 mb-4">
@@ -131,25 +149,25 @@
                                     <div class="col-lg-4 mb-4">
                                         <div class="card pricing-card border-primary">
                                             <div class="card-body">
-                                                <h3>Step 3:</h3>
+                                                <h3>Step 3:</h3> <br>
                                                 <h6 class="mb-1 text-warning"> Boost Your Performance📈</h6>
                                                 <p class="mb-4">
                                                     <p>Analyze the data from your Back-Testing and Intra-Daily Trading Plan. Identify recurring mistakes that lead to losses, and focus on correcting them to enhance your trading success.
-                                                    </p><button class="btn btn-primary btn-rounded">Get Started</button>
+                                                    </p><button href="features.html" class="btn btn-primary btn-rounded">Get Started</button>
                                             </div>
                                         </div>
                                     </div>
                                     </div>
                                 </div>
                             </div>
-                            <h2 style="text-align: center;">Trading Journal</h2>
+                            <h2 class="font-os mb-0 text-gradient" style="text-align: center;" >Trading Journal</h2>
                             <div class="container">
                                 <div class="text-section">
-                                    <p>Start recording your trades with Dreamville Notion Template and let our powerful journaling show you the path to minimize your mistakes.</p>
+                                    <p>Start recording your trades with Dreamville Notion Template and let our powerful journaling show you the path to minimize your mistakes.Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Dreamville Trading Journal provides the tools you need to track your trades, analyze your performance, and improve your trading skills.</p>
                                     <div class="container">
                                         <section class="text-section">
                                             <div class="col-12 mb-5">
-                                                <img src="assets/images/notion.jpg" alt="blog details" class="img-fluid" style="align-items: center;">
+                                                <img src="assets/images/notion_journal.png" alt="blog details" class="img-fluid" style="align-items: center;">
                                             </div>
                                             <h5>Journal Trades</h5>
                                             <p>The simplest yet most powerfultrading journal to date. Build a vault of valuable information that can be analyzed at any time from anywhere.</p>
@@ -165,152 +183,213 @@
                                         </section>
                                         
                                     </div>
+                                    <h1  class="font-os mb-0 text-gradient" style="text-align: center;" >Customizable Dashboard</h1>
+                                    <p>Customize the Dreamville Trading Notion Template to match your trading style with our flexible dashboard for a seamless experience. Instantly view your past performance 📊 and track your progress over time 📈.</p>
+                                    <div class="col-12 mb-5">
+                                        <img src="assets/images/notion_home.png" alt="blog details" class="img-fluid" style="align-items: center;">
+                                    </div>  
                                 </div>  
+                                <h1  class="font-os mb-0 text-gradient" style="text-align: center;" >Analyze your trading stats</h1>
+                                <p>Want to know which days you trade best or worst? 📅 Curious about your most profitable symbols? 💹 Use insights from your trading journal data, like win rate, profit factor, and weekly/monthly percentages, 📈 to develop a strong trade plan and monitor your progress over time. ⏳</p>
+                                <div class="col-12 mb-5">
+                                    <img src="assets/images/notion_stats.png" alt="blog details" class="img-fluid" style="align-items: center;">
+                                </div>
                             </div>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-8 mb-5 text-center">
-                                <img src="assets/images/notion_gif.gif" alt="GIF description" class="img-fluid rounded">
-                            </div>
                         </div>
                         
+                        
                     </section>
+                    <h4 class="related-posts-section-title">Join thousands of traders who Journal with Dreamvillians Notion Template</h4>
+                    <br>
                     <section class="blog-post-author-info-section">
+                        
                         <div class="row">
-                            <div class="col-lg-8 offset-lg-2">
-                                <h5 class="blog-post-author-info-section-title">This article was written by</h5>
-                                <div class="blog-post-author-info media">
-                                    <img src="assets/images/avatar/avatar_6.jpg" alt="avatar"
-                                        class="align-self-sm-center blog-post-author-avatar">
+                            <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInBottomLeft">
+                                <div class="foi-rating">
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                </div>
+                                <h5 class="foi-review-heading ">Great support available</h5>
+                                <div class="media foi-review-user">
+                                    <img src="assets/images/avatar/polo.jpg" alt="user" class="avatar">
                                     <div class="media-body">
-                                        <div class="d-flex flex-wrap align-items-center">
-                                            <h6 class="mr-3 mb-0">Nout Golstein</h6>
-                                            <nav class="author-social-links">
-                                                <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                                                <a href="#!"><i class="fab fa-instagram"></i></a>
-                                                <a href="#!"><i class="fab fa-twitter"></i></a>
-                                                <a href="#!"><i class="fab fa-youtube"></i></a>
-                                            </nav>
-                                        </div>
-                                        <p class="author-description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h6 class="mb-0">Kabelo M. (Pretoria, South Africa)</h6>
+                                        <p>Full time Prop Trader</p>
                                     </div>
                                 </div>
+                                <br>
+                                <p class="foi-review-content">"The product and team at Dreamvillians Traders Club have been nothing but impressive. Built and run by traders, the team understands the needs of seasoned traders and those new to the market. The product itself is clean and intuitive which is great considering the amount of time one spends journaling and not what you see in other trading software."</p>
+                                <hr>
                             </div>
-                        </div>
-                    </section>
-                    <section class="related-posts-section">
-                        <h4 class="related-posts-section-title">You may also like</h4>
-                        <div class="row">
-                            <div class="col-md-4 related-post">
-                                <div class="related-post-thumbnail-wrapper">
-                                    <img src="assets/images/blog_details_3.jpg" alt="related post">
-                                    <span class="blog-post-badge">Trending</span>
+                            <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInUpBig">
+                                <div class="foi-rating">
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    
                                 </div>
-                                <p class="post-published-date">02 APR 2020</p>
-                                <h4 class="post-tite">Lorem ipsum dolor sit amet, consectetur</h4>
-                            </div>
-                            <div class="col-md-4 related-post">
-                                <div class="related-post-thumbnail-wrapper">
-                                    <img src="assets/images/blog_details_2.jpg" alt="related post">
-                                    <span class="blog-post-badge">Trending</span>
+                                <h5 class="foi-review-heading">Great support available</h5>
+                                <div class="media foi-review-user">
+                                    <img src="assets/images/avatar/user2.jpg" alt="user" class="avatar">
+                                    <div class="media-body">
+                                        <h6 class="mb-0">Jeffrey S. (Polokwane, South Africa🇿🇦)</h6>
+                                        <p>Construction Worker/Retail Trader</p>
+                                    </div>
                                 </div>
-                                <p class="post-published-date">02 APR 2020</p>
-                                <h4 class="post-tite">Lorem ipsum dolor sit amet, consectetur</h4>
+                                <br>   
+                                <p class="foi-review-content">"This template is the best I've found for journaling trades.One of my favorite features is the Stats, where you can view your Weekly,Monthly & Quartely stats at a glance, write out your trade breakdowns, add screenshots, and notate your overall performance. If they continue to improve and add new features, I'm sure they'll earn a full score."</p>
+                                
+                                <hr>
                             </div>
-                            <div class="col-md-4 related-post">
-                                <div class="related-post-thumbnail-wrapper">
-                                    <img src="assets/images/blog_details_1.jpg" alt="related post">
-                                    <span class="blog-post-badge">Trending</span>
+                            
+                            <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInRight" >
+                                <div class="foi-rating">
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
                                 </div>
-                                <p class="post-published-date">02 APR 2020</p>
-                                <h4 class="post-tite">Lorem ipsum dolor sit amet, consectetur</h4>
+                                <h5 class="foi-review-heading">Great support available</h5>
+                                <div class="media foi-review-user">
+                                    <img src="assets/images/avatar/avatar_7.jpg" alt="user" class="avatar">
+                                    <div class="media-body">
+                                        <h6 class="mb-0">Tom D'Gama. (Los Angeles, USA)</h6>
+                                        <p>Freelancer Developer/Prop Trader</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <p class="foi-review-content">"I have been trading for 3 years. Journaling is the best thing I found and I can see my trading improves to the next level over the past few months.The team is also constantly rolling out new features and platforms. Its overall an amazing tool to analyze your performance and see where your strengths and weaknesses are" <br> <br>   </p>
+                                <hr>
                             </div>
+                            
+                            <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInBottomLeft">
+                                <div class="foi-rating">
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                </div>
+                                <h5 class="foi-review-heading">Great support available</h5>
+                                <div class="media foi-review-user">
+                                    <img src="assets/images/avatar/user10.jpg" alt="user" class="avatar">
+                                    <div class="media-body">
+                                        <h6 class="mb-0">Grant Snyder (San Francisco, USA)</h6>
+                                        <p>Quantity Surveyor/Retail Trader</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <p class="foi-review-content">"This company is the Cream of the crop for trade Journaling. If you are lacking the discipline to journal on your own and do all the calculations required, this program is 110% worth the money.💪📈Dreamville Trading Journal gives cool stats on your trading that you normally wouldn't be able to see,this company changed the way I trade."</p>
+                                
+                                
+                            </div>
+                            <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInRight">
+                                <div class="foi-rating">
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                </div>
+                                <h5 class="foi-review-heading">Great support available</h5>
+                                <div class="media foi-review-user">
+                                    <img src="assets/images/avatar/chart.jpg" alt="user" class="avatar">
+                                    <div class="media-body">
+                                        <h6 class="mb-0">J Walmer. (Germany,Munich)</h6>
+                                        <p>Retail Trader</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <p class="foi-review-content">"Amazing service! The signals are precise, and the Notion templates have improved my productivity and trading discipline. Highly recommend! It would be nice to see more tools for technical analysis integrated into the platform."</p>
+                                
+            
+                            </div>
+                            <div class="col-md-4 foi-review mb-5 mb-md-0 animate__animated animate__fadeInBottomRight">
+                                <div class="foi-rating">
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                    <span class="fas fa-star checked"></span>
+                                </div>
+                                <h5 class="foi-review-heading">Great support available</h5>
+                                <div class="media foi-review-user">
+                                    <img src="assets/images/avatar/avatar_3.jpg" alt="user" class="avatar">
+                                    <div class="media-body">
+                                        <h6 class="mb-0">Anonymous(Harare,Zimbabwe)</h6>
+                                        <p>Teacher/Retail-Prop Trader</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <p class="foi-review-content">"I'm a beginner trade and have been using this template for the past week. This journal has been one of the best journalling templates around and the fact that it's free is unbelievable! Thank you for your contribution to the trading community!"</p>
+                
                         </div>
                     </section>
                 </div>
             </div>
         </div>
     </main>
-
-    <footer class="foi-footer text-white">
+    <br>
+    <footer>
         <div class="container">
-            <div class="row footer-content">
-                <div class="col-xl-6 col-lg-7 col-md-8">
-                    <h2 class="mb-0">Do you want to know more or just have a question? write to us.</h2>
+            <div class="row1">
+                <div class="footer-col">
+                    <h4>Privacy Policy</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy-policy.html">DISCLAIMER & POLICY</a></li>
+                        <li><a href="">Technology</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
-                    <a href="contact.html" class="btn btn-danger btn-lg">Contact form</a>
+
+                <!-- 2nd Column -->
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Testimonials Profile</a></li>
+                        <li><a href="contact.html">Contact US</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3rd Column -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="features.html">VIP Signals</a></li>
+                        <li><a href="blog-single.html">Journiling(Notion Templates)</a></li>
+                    </ul>
+                </div>
+
+                <!-- 3th Column -->
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <form action="">
+                        <input type="text" placeholder="Your Name" class="inputName">
+                        <input type="email" placeholder="Enter Company Email" class="inputEmail">
+                        <input type="submit" value="Submit" class="inputSubmit">
+                    </form>
                 </div>
             </div>
-            <div class="row footer-widget-area">
-                <div class="col-md-3">
-                    <div class="py-3">
-                        <img src="assets/images/logo-white.svg" alt="FOI">
-                    </div>
-                    <p class="font-os font-weight-semibold mb3">Get our mobile app</p>
-                    <div>
-                        <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg"
-                                alt="App store"></button>
-                        <button class="btn btn-app-download"><img src="assets/images/android.svg"
-                                alt="play store"></button>
-                    </div>
+            <hr>
+            <div class="row1">
+                <div class="col1">
+                    <p>&#169; 2022 DreamvilliansTradersClub. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Account</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">My tasks</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Edit profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Activity</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <nav>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Careers <span
-                                        class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!" class="nav-link">Shop with us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
-                    <p>
-                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
-                    </p>
-                    <p>All rights reserved.</p>
-                    <nav class="social-menu">
-                        <a href="#!"><img src="assets/images/facebook.svg" alt="facebook"></a>
-                        <a href="#!"><img src="assets/images/instagram.svg" alt="instagram"></a>
-                        <a href="#!"><img src="assets/images/twitter.svg" alt="twitter"></a>
-                        <a href="#!"><img src="assets/images/youtube.svg" alt="youtube"></a>
-                    </nav>
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -318,6 +397,12 @@
     <script src="assets/vendors/jquery/jquery.min.js"></script>
     <script src="assets/vendors/popper.js/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/vendors/aos/aos.js"></script>
+    <script src="assets/js/loader.js"></script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
 </body>
 
 </html>
