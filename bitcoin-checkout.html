@@ -89,6 +89,24 @@
     color: #666;
     margin-top: 20px;
 }
+.text-gradient {
+      background: linear-gradient(90deg,  rgb(255, 3, 28), #020202, rgb(0, 26, 255),  rgb(0, 255, 162), #3a3a3a,rgba(98, 14, 14, 0.922));
+      font-size: 2.3rem;
+      background-size: 400%;
+      font-family: sans-serif;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      animation: animate 15s linear infinite;
+  }
+  @keyframes animate {
+      0% {
+          background-position: 0%;
+      }
+  
+      100% {
+          background-position: 400%;
+      }
+  }
 
     </style>
       <meta charset="UTF-8">
@@ -97,6 +115,7 @@
       <title>DreamVillian App Landing Page</title>
       <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
       <link rel="stylesheet" href="assets/css/style.css">
+       <script src="/assets/js/loader.js"></script>
       <link href="/assets/vendors/aos/aos.css" rel="stylesheet">
       <link
       rel="stylesheet"
@@ -131,19 +150,10 @@
                                 <a class="dropdown-item" href="blog.html">Testimonials Page</a> 
                                 <a class="dropdown-item" href="faq.html">FAQ</a>
                                 <a class="dropdown-item" href="privacy-policy.html">DISCLAIMER & POLICY</a>
-                                <a class="dropdown-item" href="careers.html">Careers</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item mr-2 mb-3 mb-lg-0">
-                            <a class="btn btn-secondary" href="register.html">Sign up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-secondary" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -154,7 +164,7 @@
     <main>
         <div class="container">
             <section class="page-header animate__animated animate__fadeInLeft">
-                <h2>Bitcoin Payment Method💲</h2>
+                <h3 class="blog-post-title"><span class="font-os mb-0 text-gradient" style="color: #981919;"> Bitcoin Payment Method</span>💲</h3>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb foi-breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -171,7 +181,7 @@
 
     <div class="amount-container">
         <label for="amount" class="label">Amount (BTC):</label>
-        <input type="text" id="amount" class="input-field" placeholder="0.001234 BTC">
+        <input type="text" id="amount" class="input-field" placeholder="For example, enter 0.001234 BTC equivalent for your package.">
     </div>
 
     <div class="btc-address-container">
@@ -191,8 +201,9 @@
       <p><strong>⚠️ To avoid loss of funds:</strong></p>
       <ul>
           <li>Do not send other currencies to this address.</li>
-          <li>Make sure to copy your Deriv account address correctly into your crypto wallet.</li>
-          <li>In your cryptocurrency wallet, make sure to select the <strong>Bitcoin (BTC) network</strong> when you transfer funds to Deriv.</li>
+          <li>Make sure to copy Dreamvillians Traders Club account address correctly into your crypto wallet.</li>
+          <li>In your cryptocurrency wallet, make sure to select the <strong>Bitcoin (BTC) network</strong> when you transfer funds to Dreamvillians Traders Club.</li>
+          <li>Send Proof of Payment to our email and our team will get back to As soon as possible</li>
       </ul>
   </div>
   <p class="note"><strong>Note:</strong> You'll receive an email when your deposit starts being processed.</p>
