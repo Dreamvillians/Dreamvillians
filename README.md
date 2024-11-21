@@ -4,6 +4,9 @@
 
 Welcome to my GitHub profile! I'm a **Full-Stack Web Developer**, **Graphic Designer**, and **IT Technician** with a passion for crafting robust, efficient, and visually compelling digital solutions. With **3 years of experience** in web development and **2 years** in IT support, I enjoy building projects that combine technical innovation with creative design.
 
+## ⚡ Fun Fact:
+My passion for technology started at a young age, and I’m now turning that curiosity into reality by building apps and systems that solve real-world problems!
+
 ## 🌟 Skills & Expertise
 ## 🖥️ Tech Stack:
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
@@ -37,6 +40,16 @@ Here are some of the projects I’ve worked on:
 - **[Project 3: Notion Trading Hub]** – A personalized trading dashboard to track and analyze market performance.
 
 Feel free to explore the repositories to see my work!
+
+## 🚀 My Projects  
+
+| **Project Name** | **Description**                       | **GitHub**                                   | **Website**                               |
+|-------------------|---------------------------------------|---------------------------------------------|-------------------------------------------|
+| **Project 1**     | A brief description of the project.  | [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project1) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project1-live-site.com) |
+| **Project 2**     | A brief description of the project.  | [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project2) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project2-live-site.com) |
+| **Project 3**     | A brief description of the project.  | [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project3) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project3-live-site.com) |
+
+
 
 ## 📫 Let’s Connect &  🌐 Socials:
 
