@@ -40,10 +40,13 @@ Here are some of the projects I’ve worked on:
 
 Feel free to explore the repositories to see my work!
 
-## 📫 Let’s Connect
+## 📫 Let’s Connect &  🌐 Socials:
 
-- **LinkedIn**: [[My LinkedIn Profile](https://za.linkedin.com/in/vespas-manhaka-ba2905323)](#)
-- **Email**: vmanhakait@gmail.com/dreamvillians.traders.club@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/vespas-manhaka-ba2905323)
+[![Vespas Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vmanhakait@gmail.com)
+[![Dreamvillians Email](https://img.shields.io/badge/Dreamvillians%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dreamvillians.traders.club@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/dreamvillian_29?igsh=MTczandxNXlmYWVmcg==)
+
 
 ---
 
