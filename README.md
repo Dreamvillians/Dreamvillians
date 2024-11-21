@@ -45,8 +45,8 @@ Feel free to explore the repositories to see my work!
 
 | **Project Name** | **Description**                       | **GitHub**                                   | **Website**                               |
 |-------------------|---------------------------------------|---------------------------------------------|-------------------------------------------|
-| **SYNQ TECH**     | **SYNQ TECH**  
-At SYNQ TECH, we bridge the gap between **Technology, Access, and People**. Specializing in innovative NFC solutions, we empower seamless connections, secure access, and smarter interactions for businesses and individuals.  | [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project1) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project1-live-site.com) |
+| **SYNQ TECH**     |At SYNQ TECH, we bridge the gap between **Technology, Access, and People**. Specializing in innovative NFC solutions, we empower seamless connections, secure access, and smarter interactions for businesses and individuals.  
+| [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project1) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project1-live-site.com) |
 | **Project 2**     | A brief description of the project.  | [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project2) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project2-live-site.com) |
 | **Project 3**     | A brief description of the project.  | [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=flat-square)](https://github.com/yourusername/project3) | [![Website](https://img.shields.io/badge/-Live%20Site-blue?logo=internet-explorer&style=flat-square)](https://project3-live-site.com) |
 
