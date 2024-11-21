@@ -1,4 +1,4 @@
-# Dreamvillians
+# FULL STACK DEVELOPER
 
 # 👋 Hi, I’m Vespas K Manhaka
 
@@ -37,7 +37,7 @@ Here are some of the projects I’ve worked on:
 
 Feel free to explore the repositories to see my work!
 
-|## 🚀 My Projects  
+## 🚀 My Projects  
 
 | **Project Name**       | **Description**                                                                 | **GitHub**                                                                                                         | **Website**                                                                                                 |
 |------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
